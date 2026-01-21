@@ -5,6 +5,7 @@ console.log(arr.find((val,index)=>{
         console.log(`${val} at ${index}`);
     }
 }));
+
 console.log(arr.find((val,index)=>{
     if(val>=12){
         return 'index'
